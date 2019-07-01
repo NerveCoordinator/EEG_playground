@@ -14,17 +14,13 @@ def csv_to_rows(filename):
     with open(filename) as f:
         # Get contents
         contents = f.read()
-
         # Split every line
-        lines = contents.split("\n")        
-
+        lines = contents.split("\n")     
         # Take first row as list of headers
         headers = lines[0].split(",")
-
         # Take other rows as list of values
         for line in lines[1:]:
-            rows.append(line.split(","))    
-
+            rows.append(line.split(","))  
     # Return list of headers and list of rows
     return headers, rows
 
@@ -33,8 +29,7 @@ def csv_to_rows(filename):
 # inside the dict
 def rows_to_streams(headers, rows):
     # Associates columns to ids
-    data = {}
-        
+    data = {}        
     for row in rows:                
         # If row is empty, ignore it
         if len(row) < 2:
