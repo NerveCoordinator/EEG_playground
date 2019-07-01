@@ -1,4 +1,4 @@
-# Using data from https://www.kaggle.com/c/grasp-and-lift-eeg-detection/kernels
+# Using data from https://www.kaggle.com/c/grasp-and-lift-eeg-detection/data
 # Simple superimposed graph of all the electrode channels
 #
 # This program assumes you've already unzipped the data
