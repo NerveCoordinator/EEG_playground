@@ -1,2 +1,2 @@
 # EEG_playground
-Code for various EEG scripts
+Code for various ML scripts
